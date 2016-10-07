@@ -1,0 +1,21 @@
+cd tgit
+pwd
+ls -ah
+git add text.txt
+git commit -m "wrote a text file"
+git status
+git diff
+git log
+git reflog
+git reset --hard HEAD^
+git reset --hard 279a8ed
+cat text.txt
+git checkout -- text.txt  丢弃工作区的修改
+git reset HEAD file 把暂存区的修改撤销掉（unstage），重新放回工作区
+rm del.txt
+git checkout -- del.txt
+git rm del.txt
+
+
+
+
