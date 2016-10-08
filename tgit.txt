@@ -19,6 +19,10 @@ git rm del.txt
 
 
 ssh-keygen -t rsa -C "1395357789@qq.com"
-git remote add origin https://github.com/jianbotao/tgit.git
+git remote add origin https://github.com/jianbotao/tgit.git  
+git remote add origin git@github.com:jianbotao/tgit.git
 git push -u origin master
 git push origin master
+
+git clone git@github.com:jianbotao/gitskills.git
+git clone https://github.com/jianbotao/gitskills.git  需口令
